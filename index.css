@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Ubuntu:wght@300;500;700&family=VT323&display=swap");
+body {
+  background-image: url("./assets/stars.png");
+  display: flex;
+  gap: 40px;
+  margin: 40px;
+}
+
+#board {
+  width: 1200px;
+  height: 800px;
+  background-color: rgba(0, 255, 255, 0.349);
+  border: 10px solid;
+  border-image: url("./assets/cableL.png") 30 round;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 2px rgb(49, 160, 239);
+}
+#landscape {
+  width: 3600px;
+  height: 650px;
+  background-image: url("./assets/backgroundFinal.png");
+  background-size: 1800px 650px;
+  position: absolute;
+  z-index: -1;
+}
+
+#road {
+  width: 3600px;
+  height: 150px;
+  background-image: url("./assets/roadFinal.png");
+  background-size: 1800px 150px;
+  position: absolute;
+  top: 650px;
+  z-index: -1;
+}
+
+#gameover {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: "VT323";
+  padding-top: 10%;
+  font-size: 80px;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/stars.png');
+  background-image: contain;
+  color: rgb(27, 95, 223);
+  position: absolute;
+  z-index: 1;
+  letter-spacing: 10px;
+  text-shadow: 8px 8px 8px rgb(94, 129, 241);
+}
+#gameover > * {
+  margin: 0;
+}
+#start {
+  display: inline-block;
+  text-align:center;
+  border: 5px solid;
+  width: 50%;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: "VT323";
+  padding-top: 10%;
+  font-size: 80px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: rgb(27, 95, 223);
+  position: absolute;
+  z-index: 1;
+  letter-spacing: 10px;
+  text-shadow: 8px 8px 8px rgb(94, 129, 241);
+}
+#start button{
+  font-size: 80px;
+  width: 200px;
+  height: 100px;
+  text-shadow: 8px 8px rgb(0, 0, 0);
+}
+button {
+  font-size: 30px;
+  font-family: "VT323";
+  color: white;
+  background-image: url("./assets/cableL.png");
+  background-size: 100px 10px;
+  text-shadow: 8px 8px rgb(0, 0, 0);
+  width: 100px;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 4px 20px -3px white;
+}
+
+button:hover div {
+  position: relative;
+  animation: animationx 1s infinite;
+}
+
+@keyframes animationx {
+  0% {
+    top: -10px;
+  }
+}
+
+#info {
+  background-color: rgba(255, 255, 255, 0.103);
+  border: 5px solid rgb(15, 49, 129);
+  border-image: url("./assets/cableL.png") 30 round;
+  width: 400px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  box-shadow: 0px 0px 20px 2px rgb(49, 160, 239);
+}
+
+#playerinfo {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: 5px solid rgb(4, 49, 78);
+  border-image: url("./assets/cableL.png") 30 round;
+  box-shadow: 0px 0px 20px 2px rgb(49, 160, 239);
+  width: 280px;
+  height: 250px;
+}
+
+#stageinfo {
+  background-image: url("./assets/controls2.png");
+  background-repeat: no-repeat;
+  background-size: 280px 430px;
+  border: 5px solid rgb(4, 49, 78);
+  border-image: url("./assets/cableL.png") 30 round;
+  box-shadow: 0px 0px 20px 2px rgb(49, 160, 239);
+  width: 280px;
+  height: 430px;
+}
+#points {
+  display: flex;
+  margin-top: 30px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+#player {
+  display: inline-block;
+  background-image: url("./assets/stand.png");
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  background-size: 100px 200px;
+  background-repeat: no-repeat;
+}
+.jump {
+  background-image: url("./assets/jump.png");
+  background-size: 100px 200px;
+  background-repeat: no-repeat;
+}
+.obstacle {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  margin: auto;
+  background-image: url("./assets/spikesManual.png");
+  position: absolute;
+}
+.obstacleBat {
+  display: inline-block;
+  width: 90px;
+  height: 100px;
+  margin: auto;
+  background-image: url("./assets/gifBat.gif");
+  background-size: 90px 100px;
+  position: absolute;
+}
+
+.player-movement {
+  animation: playerMovement 0.5s linear;
+  animation-iteration-count: infinite;
+  background-size: 100px 200px;
+  background-repeat: no-repeat;
+}
+#laser {
+  width: 888px;
+  height: 40px;
+  margin: 528px 228px;
+  background-image: url("./assets/laser.png");
+  display: none;
+}
+
+@keyframes laserPium {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 888px;
+  }
+}
+@keyframes playerMovement {
+  0% {
+    background-image: url("./assets/paso1.png");
+  }
+
+  35% {
+    background-image: url("./assets/otroPaso.png");
+  }
+
+  65% {
+    background-image: url("./assets/otherStep.png");
+  }
+  100% {
+    background-image: url("./assets/jump.png");
+  }
+}
