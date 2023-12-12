@@ -1,5 +1,6 @@
 This project was made by three team meambers 
 
+🚀DanielVegaSuarez    🧮Skahrr (Aaron Ascanio)  ♊ JEDI84 (Yeray Armas)
 
 
 Technologies I used:
