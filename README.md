@@ -21,6 +21,13 @@ https://streak-stats.demolab.com/?user=JEDI84&theme=dark)](https://git.io/streak
 
 
 
+Contacto 📬
+📧 Email: yerayarmas84@gmail.com
+💼 LinkedIn: Yeray Armas
+
+
+
+
 
 
 
