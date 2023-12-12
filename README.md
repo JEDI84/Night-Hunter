@@ -8,6 +8,14 @@ This project was made by three team meambers
 
 
 
+<img src="https://camo.githubusercontent.com/cc0ecb82280d525ede414bc4f735844f407523f7ce464caa085f575dae237129/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f73716c2e706e67" alt="SQL" data-canonical-src="https://img.icons8.com/color/48/000000/sql.png" style="max-width: 100%;">
+
+
+
+
+
+
+
 <img src="https://camo.githubusercontent.com/cc0ecb82280d525ede414bc4f735844f407523f7ce464caa085f575dae237129/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f73716c2e706e67" alt="SQL" data-canonical-src="https://img.icons8.com/color/48/000000/sql.png" style="max-width: 100%;"><img src="https://camo.githubusercontent.com/1c849c44e00b0ff482c93d4cddc492923a3ce996fda02c8d6362f786dd65a27e/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f6d7973716c2e706e67" alt="MySQL" data-canonical-src="https://img.icons8.com/color/48/000000/mysql.png" style="max-width: 100%;"><img src="https://camo.githubusercontent.com/1c849c44e00b0ff482c93d4cddc492923a3ce996fda02c8d6362f786dd65a27e/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f6d7973716c2e706e67" alt="MySQL" data-canonical-src="https://img.icons8.com/color/48/000000/mysql.png" style="max-width: 100%;">
 
 
